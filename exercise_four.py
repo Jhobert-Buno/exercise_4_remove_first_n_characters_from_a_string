@@ -3,6 +3,12 @@
 
 
 # pseudocode
-# ask for the n 
+
 # ask for the word
+word = input("Input Word: ")
+
+# ask for the n 
+nth_number = int(input("Input Number: "))
+
 # functions
+
