@@ -11,4 +11,11 @@ word = input("Input Word: ")
 nth_number = int(input("Input Number: "))
 
 # functions
+def remove_characters (word, nth_number):
+    print("Original Word: ", word)
+    remove_string = word[nth_number:]
+
+    return remove_string
+
+print("New Word: ", remove_characters(word, nth_number))
 
